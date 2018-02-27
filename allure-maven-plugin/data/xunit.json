@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1519754614280,
+    "stop" : 1519754629820,
+    "duration" : 15540
+  },
+  "testSuites" : [ {
+    "uid" : "ff19be9eeef3ecde",
+    "name" : "Проверка сайта Dyson",
+    "title" : "Проверка сайта dyson",
+    "time" : {
+      "start" : 1519754614280,
+      "stop" : 1519754629820,
+      "duration" : 15540
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fce41237f8cf6b3a",
+      "name" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+      "title" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+      "time" : {
+        "start" : 1519754614280,
+        "stop" : 1519754629820,
+        "duration" : 15540
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

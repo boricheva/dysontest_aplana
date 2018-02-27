@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Проверка сайта Dyson",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "9be97915a6936fd",
+      "title" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "fce41237f8cf6b3a",
+        "name" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+        "title" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+        "time" : {
+          "start" : 1519754614280,
+          "stop" : 1519754629820,
+          "duration" : 15540
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
