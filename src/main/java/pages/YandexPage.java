@@ -13,11 +13,9 @@ public class YandexPage extends BasePage {
         driver.get(url);
     }
 
-    public void fillTextArea(String text) {
-        WebElement searchBar = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@aria-label='Запрос']")));
-        searchBar.click();
-        searchBar.clear();
-        searchBar.sendKeys(text);
+    public void fillsearchBar(String text) {
+        By searchBarLocator = By.xpath("//input[@aria-label='Запрос']");
+        fillTextArea(searchBarLocator, text);
     }
 
     public void goToSearchResults() {

@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -8,7 +9,7 @@ import steps.BaseSteps;
 
 import java.util.Set;
 
-public abstract class BasePage {
+abstract class BasePage {
     WebDriver driver = BaseSteps.getDriver();
     Wait<WebDriver> wait = new WebDriverWait(driver, 60);
     private static String baseHandle;
@@ -22,6 +23,13 @@ public abstract class BasePage {
             elToClick.click();
             return true;
         });
+    }
+
+    void fillTextArea(By locator, String text) {
+        WebElement textArea = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        textArea.click();
+        textArea.clear();
+        textArea.sendKeys(text);
     }
 
     void rememberWindowHandle() {
