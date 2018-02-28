@@ -1,0 +1,206 @@
+{
+  "uid" : "fce41237f8cf6b3a",
+  "name" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+  "title" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого",
+  "time" : {
+    "start" : 1519754614280,
+    "stop" : 1519754629820,
+    "duration" : 15540
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 10
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ff19be9eeef3ecde",
+    "name" : "Проверка сайта Dyson",
+    "title" : "Проверка сайта dyson"
+  },
+  "steps" : [ {
+    "name" : "Дано пользователь переходит на главную страницу Яндекса: yandex.ru",
+    "title" : "Дано пользователь переходит на главную страницу Яндекса: yandex.ru",
+    "time" : {
+      "start" : 1519754620225,
+      "stop" : 1519754623057,
+      "duration" : 2832
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда Пользователь вводит в строку поиска текст: «пылесос дайсон»",
+    "title" : "Когда Пользователь вводит в строку поиска текст: «пылесос дайсон»",
+    "time" : {
+      "start" : 1519754623061,
+      "stop" : 1519754623714,
+      "duration" : 653
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И переходит к результатам поиска",
+    "title" : "И переходит к результатам поиска",
+    "time" : {
+      "start" : 1519754623715,
+      "stop" : 1519754625658,
+      "duration" : 1943
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И на первых 10 страницах с результатами находит ссылку магазина: shop.dyson.ru и переходит по ней",
+    "title" : "И на первых 10 страницах с результатами находит ссылку магазина: shop.dyson.ru и переходит по ней",
+    "time" : {
+      "start" : 1519754625659,
+      "stop" : 1519754626107,
+      "duration" : 448
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда в новом окне открывается страница «Интернет магазин техники Dyson»",
+    "title" : "Тогда в новом окне открывается страница «Интернет магазин техники Dyson»",
+    "time" : {
+      "start" : 1519754626107,
+      "stop" : 1519754627378,
+      "duration" : 1271
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И пользователь проверяет, что на странице присутствует модель пылесоса: «Big Ball»",
+    "title" : "И пользователь проверяет, что на странице присутствует модель пылесоса: «Big Ball»",
+    "time" : {
+      "start" : 1519754627378,
+      "stop" : 1519754627471,
+      "duration" : 93
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда пользователь выбирает из вернего меню вкладку «Ассортимент»",
+    "title" : "Когда пользователь выбирает из вернего меню вкладку «Ассортимент»",
+    "time" : {
+      "start" : 1519754627472,
+      "stop" : 1519754627685,
+      "duration" : 213
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И в выпадающем меню пользователь выбирает пункт «Насадки и аксессуары»",
+    "title" : "И в выпадающем меню пользователь выбирает пункт «Насадки и аксессуары»",
+    "time" : {
+      "start" : 1519754627685,
+      "stop" : 1519754628713,
+      "duration" : 1028
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда открывается страница «Аксессуары»",
+    "title" : "Тогда открывается страница «Аксессуары»",
+    "time" : {
+      "start" : 1519754628714,
+      "stop" : 1519754628782,
+      "duration" : 68
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И пользователь проверяет, что на странице присутствует товар: «Фильтр для очистителя воздуха»",
+    "title" : "И пользователь проверяет, что на странице присутствует товар: «Фильтр для очистителя воздуха»",
+    "time" : {
+      "start" : 1519754628783,
+      "stop" : 1519754628804,
+      "duration" : 21
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Переход на сайт Dyson, переход по его страницам и проверка содержимого"
+  }, {
+    "name" : "thread",
+    "value" : "12020@DESKTOP-C6N4K5H.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Проверка сайта Dyson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6N4K5H"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта Dyson"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

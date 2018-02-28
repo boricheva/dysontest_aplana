@@ -1,0 +1,54 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1519754614280,
+        "stop" : 1519754629820,
+        "duration" : 15540
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "ff19be9eeef3ecde",
+        "title" : "Проверка сайта dyson",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Проверка сайта Dyson",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}
